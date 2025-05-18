@@ -19,3 +19,6 @@
 # run the following command to migrate database:
 `python manage.py migrate`
 
+# run the following command to create a superuser:
+`python manage.py createsuperuser`
+
