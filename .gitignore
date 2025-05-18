@@ -1,1 +1,3 @@
 /venv
+/blog/blog/__pycache__
+/blog/db.sqlite3
