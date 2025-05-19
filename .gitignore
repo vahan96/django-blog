@@ -1,6 +1,10 @@
-/venv
-/blog/__pycache__
+venv/
+blog/__pycache__
 db.sqlite3
 blog_app/__pycache__/
 blog_app/migrations/__pycache__/
 .secure-notes
+django_shell_example.txt
+
+
+

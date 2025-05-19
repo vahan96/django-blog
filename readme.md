@@ -22,3 +22,6 @@
 # run the following command to create a superuser:
 `python manage.py createsuperuser`
 
+# run the following command to open django shell: 
+`python manage.py shell`
+
