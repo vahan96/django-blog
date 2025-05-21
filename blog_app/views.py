@@ -7,3 +7,4 @@ def index(request):
     """Home page for blog."""
     return render(request, 'blog_app/index.html')
 
+

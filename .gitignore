@@ -5,6 +5,6 @@ blog_app/__pycache__/
 blog_app/migrations/__pycache__/
 .secure-notes
 django_shell_example.txt
-
+_notes/
 
 

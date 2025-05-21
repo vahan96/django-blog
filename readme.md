@@ -25,3 +25,9 @@
 # run the following command to open django shell: 
 `python manage.py shell`
 
+# KEEP CALM AND RESTART THE SERVER!!!
+# KEEP CALM AND RESTART THE SERVER!!!
+# KEEP CALM AND RESTART THE SERVER!!!
+# KEEP CALM AND RESTART THE SERVER!!!
+# KEEP CALM AND RESTART THE SERVER!!!
+
