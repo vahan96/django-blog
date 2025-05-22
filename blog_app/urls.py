@@ -16,5 +16,8 @@ urlpatterns = [
 
     # Home page (empty string): 
     path('', views.index, name='index'),
+
+    # page with all the topics: 
+    path('topics/', views.topics, name='topics'),
 ]
 

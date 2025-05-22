@@ -1,0 +1,15 @@
+{% extends 'blog_app/base.html' %}
+
+{% block content %}
+    <p>Topics</p>
+
+    <ul>
+        {% for topic in topics %}
+            <!-- adds each topics in a new <li> element -->
+            <li> {{topic}}</li>
+        {% empty %}
+            <!-- if no topics are available add only this message -->
+            <li>No topics to display.</li>
+        {% endfor %}
+    </ul>
+{% endblock content %}
