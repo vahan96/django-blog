@@ -6,7 +6,10 @@
     <ul>
         {% for topic in topics %}
             <!-- adds each topics in a new <li> element -->
-            <li> {{topic}}</li>
+            <li> 
+                <a href="{% url 'blog_app:topic' topic.id %}">{{topic}}</a>
+                <!-- in `blog_app` namespace the path named `topic`  -->
+            </li>
         {% empty %}
             <!-- if no topics are available add only this message -->
             <li>No topics to display.</li>

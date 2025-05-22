@@ -19,5 +19,10 @@ urlpatterns = [
 
     # page with all the topics: 
     path('topics/', views.topics, name='topics'),
+
+    # page (pattern) for all topics: 
+    path('topics/<int:topic_id>/', views.topic, name='topic'),
+    # when a page with this pattern is requested, the `topic` (SINGULAR) view will be called 
+    # and the integer between slashes will be passed to the view as the topic_id argument
 ]
 
